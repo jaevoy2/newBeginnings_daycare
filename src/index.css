@@ -1,0 +1,55 @@
+:root {
+  --purple: #0a7f86;
+  --purple-dark: #064f55;
+  --purple-soft: #e3f4f3;
+  --pink: #d4547a;
+  --pink-soft: #fde8ee;
+  --yellow: #ffc53d;
+  --cream: #fff7ee;
+  --green: #2e9a47;
+  --green-soft: #e8f6e8;
+  --orange: #ff8a3d;
+  --orange-soft: #fff0e2;
+  --blue: #2fa4ff;
+  --ink: #33282a;
+  --muted: #6b5f5c;
+  --radius: 22px;
+  --shadow: 0 10px 30px rgba(6, 79, 85, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: clip;
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  margin: 0;
+  overflow-x: clip;
+  max-width: 100%;
+  font-family: 'Nunito', system-ui, sans-serif;
+  color: var(--ink);
+  background: #fff;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Baloo 2', 'Nunito', sans-serif;
+  line-height: 1.15;
+  margin: 0 0 0.5em;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
